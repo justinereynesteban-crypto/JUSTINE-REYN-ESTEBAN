@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUSTINE REYN ESTEBAN</title>
+
+    <!--font-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!--header section starts-->  
+
+<header>
+
+    <div class="user">
+        <img src="images/pic.jpg" alt="">
+        <h3 class="name">Justine Reyn Esteban</h3>
+        <p class="post">TVL-ICT Student</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!--header section ends-->
+
+<!--home sections starts-->
+
+<section class="home" id="home">
+
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Justine Reyn Esteban</span></h1>
+    <p>A TVL-ICT student with a growing interest in Information Technology. I am just starting to learn about topics like computer systems, basic programming and troubleshooting. I'm excited to explore different areas within ICT, including coding, software development, and networking. I am eager to take on new challenges, learn from my experiences, and build my skills step by step.
+    </p>
+    <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+</section>
+
+<!--home sections ends-->
+
+<!--about section starts-->
+
+<section class="about" id="about">
+
+<h1 class="heading"><span>About</span> Me</h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3><span> Name : </span> Justine Reyn Esteban </h3>
+        <h3><span> Age : </span> 17 years old </h3>
+        <h3><span> Strand : </span> TVL-Information and Communication Technology </h3>
+        <h3><span> School : </span> Immaculate Conception Polytechnic </h3>
+        <h3><span> Language Spoken: </span> English, Filipino </h3>
+        <a href="#resume"><button class="btn"> View CV <i class="fas fa-file"></i></button></a>
+    </div>
+</div>
+
+</section>
+<!--about section ends-->
+
+<!--education section starts-->
+
+<section class="education" id="education">
+
+<h1 class="heading"> My <span>Education</span></h1>
+
+<div class="box-container">
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Senior High School</span>
+        <h3>2024-Present</h3>
+        <p>School: IMMACULATE CONCEPTION POLYTECHNIC
+</p>
+      <p>Strand: TVL-INFORMATION AND COMMUNICATION TECHNOLOGY
+</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Junior High School</span>
+        <h3>2020-2024</h3>
+        <p>School: CATMON NATIONAL HIGH SCHOOL</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Grade School</span>
+        <h3>2017-2019</h3>
+        <p>School: MIGUEL M. CRUZ MEMORIAL SCHOOL</p>
+    </div>
+
+</div>
+
+</section>
+
+<!--education section ends-->
+
+<!--contact section starts-->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> Contact <span>Me</span></h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">Contact Info</h3>
+        
+        <div class="info">
+<h3>
+  <i class="fas fa-envelope"></i>
+  <a href="https://mail.google.com/mail/?view=cm&to=justinereynesteban@gmail.com" target="_blank">
+    justinereynesteban@gmail.com
+  </a>
+</h3>
+
+
+            <h3><i class="fas fa-phone"></i> 0981-672-7744</h3>
+
+            <a href="https://www.facebook.com/share/1Fi8QP9Jrx/" target="_blank">
+                <h3><i class="fab fa-facebook"></i> Justine Esteban </h3>
+            </a>
+            
+            <h3><i class="fas fa-map-marker-alt"></i> 552 Centro, Bulac, Santa Maria, Bulacan</h3>
+        </div> 
+
+    </div>
+
+</div>
+
+</section>
+<!--contact section ends-->
+
+<!--resume section starts-->
+<section class="resume" id="resume">
+
+    <h1 class="heading"><span>My </span>Resume</h1> 
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="images/resume.jpg" alt="">
+        </div>
+    
+    </div>
+    
+    </section>
+<!--resume section ends-->
+</body>
+</html>
